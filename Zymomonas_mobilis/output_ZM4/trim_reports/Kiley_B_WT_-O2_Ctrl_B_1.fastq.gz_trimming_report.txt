@@ -1,0 +1,183 @@
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: Kiley_B_WT_-O2_Ctrl_B_1.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.10
+Cutadapt version: 4.4
+Python version: could not detect
+Number of cores used for trimming: 4
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Using Illumina adapter for trimming (count: 9). Second best hit was smallRNA (count: 0)
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+Running FastQC on the data once trimming has completed
+Output file will be GZIP compressed
+
+
+This is cutadapt 4.4 with Python 3.7.16
+Command line parameters: -j 4 -e 0.1 -q 20 -O 1 -a AGATCGGAAGAGC Kiley_B_WT_-O2_Ctrl_B_1.fastq.gz
+Processing single-end reads on 4 cores ...
+Finished in 9.034 s (2.894 µs/read; 20.73 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:               3,121,594
+Reads with adapters:                   928,906 (29.8%)
+Reads written (passing filters):     3,121,594 (100.0%)
+
+Total basepairs processed:   451,494,139 bp
+Quality-trimmed:                 134,499 bp (0.0%)
+Total written (filtered):    450,044,057 bp (99.7%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 928906 times
+
+Minimum overlap: 1
+No. of allowed errors:
+1-9 bp: 0; 10-13 bp: 1
+
+Bases preceding removed adapters:
+  A: 33.1%
+  C: 32.6%
+  G: 17.4%
+  T: 16.9%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	670998	780398.5	0	670998
+2	196768	195099.6	0	196768
+3	45220	48774.9	0	45220
+4	10708	12193.7	0	10708
+5	2840	3048.4	0	2840
+6	599	762.1	0	599
+7	314	190.5	0	314
+8	241	47.6	0	241
+9	228	11.9	0	202 26
+10	273	3.0	1	45 228
+11	40	0.7	1	3 37
+12	29	0.2	1	5 24
+13	37	0.0	1	11 26
+14	10	0.0	1	2 8
+15	11	0.0	1	3 8
+16	18	0.0	1	3 15
+17	19	0.0	1	2 17
+18	13	0.0	1	1 12
+19	6	0.0	1	2 4
+20	6	0.0	1	2 4
+21	7	0.0	1	0 7
+22	4	0.0	1	0 4
+23	8	0.0	1	1 7
+24	17	0.0	1	1 16
+25	6	0.0	1	0 6
+26	4	0.0	1	1 3
+27	4	0.0	1	2 2
+28	2	0.0	1	1 1
+29	6	0.0	1	2 4
+30	5	0.0	1	0 5
+31	3	0.0	1	0 3
+32	3	0.0	1	0 3
+33	11	0.0	1	0 11
+34	9	0.0	1	0 9
+35	12	0.0	1	1 11
+36	5	0.0	1	0 5
+37	6	0.0	1	0 6
+38	6	0.0	1	0 6
+39	3	0.0	1	0 3
+40	8	0.0	1	1 7
+41	5	0.0	1	2 3
+42	3	0.0	1	1 2
+43	9	0.0	1	2 7
+44	3	0.0	1	0 3
+45	3	0.0	1	0 3
+46	2	0.0	1	0 2
+47	2	0.0	1	0 2
+48	1	0.0	1	0 1
+49	3	0.0	1	0 3
+50	11	0.0	1	1 10
+52	4	0.0	1	0 4
+53	29	0.0	1	1 28
+54	6	0.0	1	0 6
+55	3	0.0	1	1 2
+56	1	0.0	1	0 1
+57	1	0.0	1	0 1
+58	2	0.0	1	0 2
+59	3	0.0	1	0 3
+60	4	0.0	1	0 4
+61	2	0.0	1	0 2
+62	2	0.0	1	0 2
+63	1	0.0	1	0 1
+64	1	0.0	1	0 1
+65	1	0.0	1	1
+66	1	0.0	1	1
+67	1	0.0	1	0 1
+71	2	0.0	1	0 2
+72	7	0.0	1	0 7
+73	9	0.0	1	0 9
+74	2	0.0	1	0 2
+75	3	0.0	1	0 3
+76	5	0.0	1	0 5
+78	3	0.0	1	0 3
+79	1	0.0	1	0 1
+80	1	0.0	1	0 1
+82	1	0.0	1	0 1
+83	1	0.0	1	0 1
+85	3	0.0	1	0 3
+86	1	0.0	1	0 1
+89	3	0.0	1	0 3
+90	43	0.0	1	0 43
+91	9	0.0	1	0 9
+92	5	0.0	1	0 5
+93	4	0.0	1	0 4
+94	2	0.0	1	0 2
+95	3	0.0	1	0 3
+97	3	0.0	1	0 3
+99	1	0.0	1	0 1
+101	1	0.0	1	0 1
+103	1	0.0	1	0 1
+104	1	0.0	1	0 1
+105	1	0.0	1	0 1
+106	1	0.0	1	0 1
+108	2	0.0	1	0 2
+110	4	0.0	1	0 4
+112	1	0.0	1	0 1
+114	1	0.0	1	0 1
+115	5	0.0	1	0 5
+116	5	0.0	1	0 5
+118	7	0.0	1	0 7
+119	2	0.0	1	0 2
+120	1	0.0	1	0 1
+122	15	0.0	1	0 15
+123	5	0.0	1	0 5
+124	2	0.0	1	0 2
+127	3	0.0	1	0 3
+129	3	0.0	1	0 3
+130	1	0.0	1	0 1
+131	1	0.0	1	0 1
+132	2	0.0	1	0 2
+133	9	0.0	1	0 9
+134	1	0.0	1	0 1
+135	2	0.0	1	0 2
+136	4	0.0	1	0 4
+137	13	0.0	1	0 13
+138	18	0.0	1	0 18
+139	1	0.0	1	0 1
+140	1	0.0	1	0 1
+141	28	0.0	1	0 28
+142	2	0.0	1	0 2
+143	9	0.0	1	0 9
+144	5	0.0	1	0 5
+145	4	0.0	1	0 4
+146	13	0.0	1	0 13
+147	1	0.0	1	0 1
+148	7	0.0	1	0 7
+
+RUN STATISTICS FOR INPUT FILE: Kiley_B_WT_-O2_Ctrl_B_1.fastq.gz
+=============================================
+3121594 sequences processed in total
+

@@ -1,0 +1,159 @@
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: SRX5252039_1.fastq.gz
+Trimming mode: single-end
+Trim Galore version: 0.6.10
+Cutadapt version: 4.4
+Python version: could not detect
+Number of cores used for trimming: 4
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Using Illumina adapter for trimming (count: 17307). Second best hit was smallRNA (count: 0)
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length before a sequence gets removed: 20 bp
+Running FastQC on the data once trimming has completed
+Output file will be GZIP compressed
+
+
+This is cutadapt 4.4 with Python 3.7.16
+Command line parameters: -j 4 -e 0.1 -q 20 -O 1 -a AGATCGGAAGAGC SRX5252039_1.fastq.gz
+Processing single-end reads on 4 cores ...
+Finished in 41.476 s (5.439 µs/read; 11.03 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:               7,625,402
+Reads with adapters:                 2,775,652 (36.4%)
+Reads written (passing filters):     7,625,402 (100.0%)
+
+Total basepairs processed:   770,165,602 bp
+Quality-trimmed:               7,248,449 bp (0.9%)
+Total written (filtered):    754,882,374 bp (98.0%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 2775652 times
+
+Minimum overlap: 1
+No. of allowed errors:
+1-9 bp: 0; 10-13 bp: 1
+
+Bases preceding removed adapters:
+  A: 37.2%
+  C: 24.2%
+  G: 19.8%
+  T: 18.8%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	1919225	1906350.5	0	1919225
+2	393105	476587.6	0	393105
+3	139850	119146.9	0	139850
+4	52853	29786.7	0	52853
+5	25461	7446.7	0	25461
+6	21053	1861.7	0	21053
+7	19199	465.4	0	19199
+8	14913	116.4	0	14913
+9	16013	29.1	0	15840 173
+10	13730	7.3	1	13274 456
+11	11649	1.8	1	11403 246
+12	12011	0.5	1	11811 200
+13	12366	0.1	1	12166 200
+14	8851	0.1	1	8715 136
+15	10084	0.1	1	9914 170
+16	7671	0.1	1	7538 133
+17	7970	0.1	1	7824 146
+18	7230	0.1	1	7102 128
+19	6561	0.1	1	6455 106
+20	6487	0.1	1	6365 122
+21	5863	0.1	1	5751 112
+22	5202	0.1	1	5114 88
+23	4215	0.1	1	4143 72
+24	4205	0.1	1	4123 82
+25	4108	0.1	1	4034 74
+26	2757	0.1	1	2689 68
+27	3112	0.1	1	3048 64
+28	3121	0.1	1	3051 70
+29	2446	0.1	1	2407 39
+30	2329	0.1	1	2285 44
+31	2101	0.1	1	2057 44
+32	2671	0.1	1	2626 45
+33	1152	0.1	1	1096 56
+34	1833	0.1	1	1769 64
+35	1469	0.1	1	1425 44
+36	1235	0.1	1	1199 36
+37	1010	0.1	1	988 22
+38	951	0.1	1	932 19
+39	824	0.1	1	807 17
+40	775	0.1	1	741 34
+41	751	0.1	1	737 14
+42	785	0.1	1	763 22
+43	565	0.1	1	546 19
+44	483	0.1	1	459 24
+45	698	0.1	1	675 23
+46	230	0.1	1	213 17
+47	451	0.1	1	427 24
+48	336	0.1	1	322 14
+49	361	0.1	1	344 17
+50	266	0.1	1	256 10
+51	326	0.1	1	308 18
+52	246	0.1	1	229 17
+53	258	0.1	1	234 24
+54	252	0.1	1	226 26
+55	263	0.1	1	223 40
+56	150	0.1	1	136 14
+57	245	0.1	1	233 12
+58	161	0.1	1	145 16
+59	170	0.1	1	142 28
+60	192	0.1	1	173 19
+61	112	0.1	1	101 11
+62	126	0.1	1	101 25
+63	248	0.1	1	214 34
+64	114	0.1	1	105 9
+65	130	0.1	1	123 7
+66	165	0.1	1	145 20
+67	146	0.1	1	115 31
+68	131	0.1	1	111 20
+69	180	0.1	1	152 28
+70	185	0.1	1	155 30
+71	215	0.1	1	182 33
+72	199	0.1	1	179 20
+73	282	0.1	1	243 39
+74	426	0.1	1	371 55
+75	882	0.1	1	691 191
+76	4437	0.1	1	4192 245
+77	1848	0.1	1	1752 96
+78	387	0.1	1	367 20
+79	123	0.1	1	111 12
+80	63	0.1	1	42 21
+81	41	0.1	1	20 21
+82	36	0.1	1	14 22
+83	34	0.1	1	16 18
+84	27	0.1	1	19 8
+85	10	0.1	1	8 2
+86	19	0.1	1	6 13
+87	14	0.1	1	4 10
+88	14	0.1	1	4 10
+89	21	0.1	1	8 13
+90	16	0.1	1	7 9
+91	20	0.1	1	8 12
+92	24	0.1	1	6 18
+93	6	0.1	1	2 4
+94	10	0.1	1	4 6
+95	19	0.1	1	3 16
+96	41	0.1	1	6 35
+97	14	0.1	1	2 12
+98	18	0.1	1	3 15
+99	10	0.1	1	2 8
+100	5	0.1	1	1 4
+101	4	0.1	1	0 4
+
+RUN STATISTICS FOR INPUT FILE: SRX5252039_1.fastq.gz
+=============================================
+7625402 sequences processed in total
+Sequences removed because they became shorter than the length cutoff of 20 bp:	32338 (0.4%)
+

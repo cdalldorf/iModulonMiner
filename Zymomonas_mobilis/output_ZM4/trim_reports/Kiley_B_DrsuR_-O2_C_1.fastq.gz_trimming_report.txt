@@ -1,0 +1,193 @@
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: Kiley_B_DrsuR_-O2_C_1.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.10
+Cutadapt version: 4.4
+Python version: could not detect
+Number of cores used for trimming: 4
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Using Illumina adapter for trimming (count: 12). Second best hit was Nextera (count: 0)
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+Running FastQC on the data once trimming has completed
+Output file will be GZIP compressed
+
+
+This is cutadapt 4.4 with Python 3.7.16
+Command line parameters: -j 4 -e 0.1 -q 20 -O 1 -a AGATCGGAAGAGC Kiley_B_DrsuR_-O2_C_1.fastq.gz
+Processing single-end reads on 4 cores ...
+Finished in 13.170 s (2.747 µs/read; 21.84 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:               4,795,012
+Reads with adapters:                 1,426,991 (29.8%)
+Reads written (passing filters):     4,795,012 (100.0%)
+
+Total basepairs processed:   694,708,769 bp
+Quality-trimmed:                 205,050 bp (0.0%)
+Total written (filtered):    692,489,662 bp (99.7%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 1426991 times
+
+Minimum overlap: 1
+No. of allowed errors:
+1-9 bp: 0; 10-13 bp: 1
+
+Bases preceding removed adapters:
+  A: 33.2%
+  C: 32.5%
+  G: 17.2%
+  T: 17.1%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	1038975	1198753.0	0	1038975
+2	293670	299688.2	0	293670
+3	70358	74922.1	0	70358
+4	16244	18730.5	0	16244
+5	4518	4682.6	0	4518
+6	911	1170.7	0	911
+7	378	292.7	0	378
+8	313	73.2	0	313
+9	346	18.3	0	299 47
+10	276	4.6	1	63 213
+11	54	1.1	1	5 49
+12	27	0.3	1	5 22
+13	43	0.1	1	8 35
+14	6	0.1	1	2 4
+15	11	0.1	1	8 3
+16	16	0.1	1	2 14
+17	26	0.1	1	0 26
+18	9	0.1	1	2 7
+19	8	0.1	1	4 4
+20	7	0.1	1	2 5
+21	11	0.1	1	3 8
+22	5	0.1	1	0 5
+23	14	0.1	1	3 11
+24	13	0.1	1	3 10
+25	8	0.1	1	1 7
+26	6	0.1	1	1 5
+27	7	0.1	1	2 5
+28	5	0.1	1	2 3
+29	7	0.1	1	2 5
+30	2	0.1	1	0 2
+31	4	0.1	1	2 2
+32	2	0.1	1	0 2
+33	10	0.1	1	0 10
+34	20	0.1	1	2 18
+35	12	0.1	1	0 12
+36	4	0.1	1	0 4
+37	10	0.1	1	2 8
+38	8	0.1	1	0 8
+39	2	0.1	1	0 2
+40	7	0.1	1	0 7
+41	6	0.1	1	0 6
+42	2	0.1	1	0 2
+43	12	0.1	1	0 12
+44	3	0.1	1	1 2
+45	1	0.1	1	0 1
+46	7	0.1	1	0 7
+47	3	0.1	1	0 3
+48	2	0.1	1	1 1
+49	6	0.1	1	0 6
+50	8	0.1	1	1 7
+51	4	0.1	1	0 4
+52	3	0.1	1	1 2
+53	28	0.1	1	0 28
+54	7	0.1	1	0 7
+55	5	0.1	1	0 5
+56	1	0.1	1	0 1
+57	1	0.1	1	0 1
+58	1	0.1	1	0 1
+59	5	0.1	1	0 5
+60	5	0.1	1	0 5
+62	3	0.1	1	0 3
+63	1	0.1	1	0 1
+67	2	0.1	1	0 2
+69	3	0.1	1	0 3
+70	3	0.1	1	0 3
+71	2	0.1	1	0 2
+72	10	0.1	1	0 10
+73	18	0.1	1	0 18
+74	6	0.1	1	0 6
+75	15	0.1	1	0 15
+76	5	0.1	1	0 5
+77	4	0.1	1	0 4
+78	2	0.1	1	0 2
+80	1	0.1	1	0 1
+81	3	0.1	1	0 3
+82	2	0.1	1	0 2
+83	4	0.1	1	0 4
+84	4	0.1	1	0 4
+85	6	0.1	1	0 6
+86	3	0.1	1	0 3
+87	3	0.1	1	0 3
+89	9	0.1	1	0 9
+90	67	0.1	1	0 67
+91	14	0.1	1	0 14
+92	11	0.1	1	0 11
+93	6	0.1	1	0 6
+94	5	0.1	1	0 5
+95	2	0.1	1	0 2
+96	1	0.1	1	0 1
+97	2	0.1	1	0 2
+99	2	0.1	1	0 2
+100	2	0.1	1	0 2
+101	3	0.1	1	0 3
+102	1	0.1	1	0 1
+104	4	0.1	1	0 4
+105	1	0.1	1	0 1
+106	1	0.1	1	0 1
+107	1	0.1	1	0 1
+108	1	0.1	1	0 1
+110	7	0.1	1	0 7
+111	4	0.1	1	0 4
+112	1	0.1	1	0 1
+113	1	0.1	1	0 1
+114	4	0.1	1	0 4
+115	3	0.1	1	0 3
+116	6	0.1	1	0 6
+118	15	0.1	1	0 15
+119	5	0.1	1	0 5
+120	2	0.1	1	0 2
+122	12	0.1	1	0 12
+123	5	0.1	1	0 5
+124	4	0.1	1	0 4
+125	2	0.1	1	0 2
+126	1	0.1	1	0 1
+127	1	0.1	1	0 1
+128	5	0.1	1	0 5
+129	4	0.1	1	0 4
+130	3	0.1	1	0 3
+131	3	0.1	1	0 3
+132	4	0.1	1	0 4
+133	5	0.1	1	0 5
+134	2	0.1	1	0 2
+136	9	0.1	1	0 9
+137	29	0.1	1	0 29
+138	28	0.1	1	0 28
+139	22	0.1	1	0 22
+140	1	0.1	1	0 1
+141	38	0.1	1	0 38
+142	5	0.1	1	0 5
+143	10	0.1	1	0 10
+144	17	0.1	1	0 17
+145	6	0.1	1	0 6
+146	23	0.1	1	0 23
+147	3	0.1	1	0 3
+148	3	0.1	1	0 3
+149	2	0.1	1	0 2
+
+RUN STATISTICS FOR INPUT FILE: Kiley_B_DrsuR_-O2_C_1.fastq.gz
+=============================================
+4795012 sequences processed in total
+

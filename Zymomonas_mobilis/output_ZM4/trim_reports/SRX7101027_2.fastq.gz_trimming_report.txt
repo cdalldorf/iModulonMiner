@@ -1,0 +1,186 @@
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: SRX7101027_2.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.10
+Cutadapt version: 4.4
+Python version: could not detect
+Number of cores used for trimming: 4
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Using Illumina adapter for trimming (count: 98502). Second best hit was smallRNA (count: 0)
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+Running FastQC on the data once trimming has completed
+Output file will be GZIP compressed
+
+
+This is cutadapt 4.4 with Python 3.7.16
+Command line parameters: -j 4 -e 0.1 -q 20 -O 1 -a AGATCGGAAGAGC SRX7101027_2.fastq.gz
+Processing single-end reads on 4 cores ...
+Finished in 242.176 s (6.696 µs/read; 8.96 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              36,165,886
+Reads with adapters:                13,795,471 (38.1%)
+Reads written (passing filters):    36,165,886 (100.0%)
+
+Total basepairs processed: 4,556,901,636 bp
+Quality-trimmed:             372,894,876 bp (8.2%)
+Total written (filtered):  4,096,908,283 bp (89.9%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 13795471 times
+
+Minimum overlap: 1
+No. of allowed errors:
+1-9 bp: 0; 10-13 bp: 1
+
+Bases preceding removed adapters:
+  A: 32.0%
+  C: 27.8%
+  G: 27.2%
+  T: 13.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	7629063	9041471.5	0	7629063
+2	1197434	2260367.9	0	1197434
+3	677718	565092.0	0	677718
+4	163721	141273.0	0	163721
+5	190836	35318.2	0	190836
+6	196189	8829.6	0	196189
+7	260232	2207.4	0	260232
+8	238203	551.8	0	238203
+9	296074	138.0	0	295091 983
+10	153553	34.5	1	146004 7549
+11	137427	8.6	1	131385 6042
+12	192589	2.2	1	186263 6326
+13	107688	0.5	1	102712 4976
+14	273043	0.5	1	262543 10500
+15	84116	0.5	1	80749 3367
+16	112601	0.5	1	108193 4408
+17	230073	0.5	1	222386 7687
+18	48180	0.5	1	46221 1959
+19	123438	0.5	1	119821 3617
+20	74318	0.5	1	72138 2180
+21	27381	0.5	1	26469 912
+22	94459	0.5	1	91587 2872
+23	117906	0.5	1	113778 4128
+24	210436	0.5	1	203583 6853
+25	44127	0.5	1	42159 1968
+26	104881	0.5	1	101618 3263
+27	73976	0.5	1	72190 1786
+28	68960	0.5	1	67269 1691
+29	19485	0.5	1	18874 611
+30	92336	0.5	1	90273 2063
+31	21617	0.5	1	21037 580
+32	50015	0.5	1	48920 1095
+33	47443	0.5	1	46255 1188
+34	61461	0.5	1	59982 1479
+35	28159	0.5	1	27379 780
+36	36736	0.5	1	35851 885
+37	29202	0.5	1	28525 677
+38	42376	0.5	1	41444 932
+39	12667	0.5	1	12361 306
+40	18369	0.5	1	17981 388
+41	25061	0.5	1	24560 501
+42	32315	0.5	1	31668 647
+43	7656	0.5	1	7444 212
+44	17550	0.5	1	17225 325
+45	24393	0.5	1	23947 446
+46	12950	0.5	1	12726 224
+47	6244	0.5	1	6113 131
+48	8738	0.5	1	8599 139
+49	9473	0.5	1	9290 183
+50	6441	0.5	1	6332 109
+51	11353	0.5	1	11180 173
+52	4195	0.5	1	4117 78
+53	4591	0.5	1	4525 66
+54	1879	0.5	1	1839 40
+55	3761	0.5	1	3699 62
+56	1688	0.5	1	1669 19
+57	2683	0.5	1	2617 66
+58	2492	0.5	1	2443 49
+59	1995	0.5	1	1944 51
+60	2367	0.5	1	2300 67
+61	2309	0.5	1	2270 39
+62	2146	0.5	1	2090 56
+63	1986	0.5	1	1942 44
+64	1855	0.5	1	1799 56
+65	1764	0.5	1	1686 78
+66	1674	0.5	1	1538 136
+67	2409	0.5	1	1746 663
+68	3459	0.5	1	3259 200
+69	651	0.5	1	623 28
+70	119	0.5	1	96 23
+71	38	0.5	1	24 14
+72	22	0.5	1	9 13
+73	15	0.5	1	3 12
+74	11	0.5	1	5 6
+75	23	0.5	1	2 21
+76	36	0.5	1	2 34
+77	11	0.5	1	0 11
+78	38	0.5	1	3 35
+79	10	0.5	1	1 9
+80	27	0.5	1	0 27
+81	24	0.5	1	0 24
+82	12	0.5	1	0 12
+83	19	0.5	1	0 19
+84	13	0.5	1	0 13
+85	23	0.5	1	0 23
+86	11	0.5	1	0 11
+87	13	0.5	1	0 13
+88	2	0.5	1	0 2
+89	6	0.5	1	0 6
+90	4	0.5	1	0 4
+91	13	0.5	1	1 12
+92	22	0.5	1	0 22
+93	10	0.5	1	0 10
+94	18	0.5	1	0 18
+95	11	0.5	1	0 11
+96	19	0.5	1	0 19
+97	12	0.5	1	0 12
+98	9	0.5	1	0 9
+99	7	0.5	1	0 7
+100	4	0.5	1	0 4
+101	6	0.5	1	0 6
+102	10	0.5	1	0 10
+103	9	0.5	1	0 9
+104	11	0.5	1	0 11
+105	4	0.5	1	0 4
+106	5	0.5	1	0 5
+107	8	0.5	1	0 8
+108	11	0.5	1	0 11
+109	10	0.5	1	0 10
+110	17	0.5	1	0 17
+111	7	0.5	1	0 7
+112	12	0.5	1	0 12
+113	12	0.5	1	0 12
+114	7	0.5	1	0 7
+115	7	0.5	1	0 7
+116	18	0.5	1	0 18
+117	11	0.5	1	0 11
+118	20	0.5	1	0 20
+119	29	0.5	1	0 29
+120	46	0.5	1	0 46
+121	12	0.5	1	0 12
+122	6	0.5	1	0 6
+123	13	0.5	1	0 13
+124	2	0.5	1	0 2
+125	9	0.5	1	0 9
+126	1	0.5	1	0 1
+
+RUN STATISTICS FOR INPUT FILE: SRX7101027_2.fastq.gz
+=============================================
+36165886 sequences processed in total
+
+Total number of sequences analysed for the sequence pair length validation: 36165886
+
+Number of sequence pairs removed because at least one read was shorter than the length cutoff (20 bp): 292554 (0.81%)

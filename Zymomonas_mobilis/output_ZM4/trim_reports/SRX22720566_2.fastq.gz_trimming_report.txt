@@ -1,0 +1,161 @@
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: SRX22720566_2.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.10
+Cutadapt version: 4.4
+Python version: could not detect
+Number of cores used for trimming: 4
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Using smallRNA adapter for trimming (count: 1). Second best hit was Illumina (count: 0)
+Adapter sequence: 'TGGAATTCTCGG' (Illumina small RNA adapter; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Optional adapter 2 sequence (only used for read 2 of paired-end files): 'GATCGTCGGACT'
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 18 bp
+Running FastQC on the data once trimming has completed
+Output file will be GZIP compressed
+
+
+This is cutadapt 4.4 with Python 3.7.16
+Command line parameters: -j 4 -e 0.1 -q 20 -O 1 -a GATCGTCGGACT SRX22720566_2.fastq.gz
+Processing single-end reads on 4 cores ...
+Finished in 128.602 s (7.098 µs/read; 8.45 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              18,117,383
+Reads with adapters:                 6,260,817 (34.6%)
+Reads written (passing filters):    18,117,383 (100.0%)
+
+Total basepairs processed: 1,811,738,300 bp
+Quality-trimmed:               1,190,582 bp (0.1%)
+Total written (filtered):  1,801,410,002 bp (99.4%)
+
+=== Adapter 1 ===
+
+Sequence: GATCGTCGGACT; Type: regular 3'; Length: 12; Trimmed: 6260817 times
+
+Minimum overlap: 1
+No. of allowed errors:
+1-9 bp: 0; 10-12 bp: 1
+
+Bases preceding removed adapters:
+  A: 20.9%
+  C: 24.8%
+  G: 23.0%
+  T: 31.3%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	4742954	4529345.8	0	4742954
+2	1006746	1132336.4	0	1006746
+3	362796	283084.1	0	362796
+4	94961	70771.0	0	94961
+5	28018	17692.8	0	28018
+6	7210	4423.2	0	7210
+7	3037	1105.8	0	3037
+8	1025	276.4	0	1025
+9	722	69.1	0	13 709
+10	630	17.3	1	3 627
+11	251	4.3	1	0 251
+12	114	1.1	1	0 114
+13	483	1.1	1	0 483
+14	194	1.1	1	0 194
+15	342	1.1	1	1 341
+16	128	1.1	1	0 128
+17	141	1.1	1	0 141
+18	172	1.1	1	1 171
+19	126	1.1	1	0 126
+20	127	1.1	1	3 124
+21	63	1.1	1	0 63
+22	92	1.1	1	0 92
+23	177	1.1	1	0 177
+24	575	1.1	1	0 575
+25	122	1.1	1	1 121
+26	242	1.1	1	0 242
+27	130	1.1	1	1 129
+28	55	1.1	1	0 55
+29	41	1.1	1	0 41
+30	42	1.1	1	0 42
+31	121	1.1	1	0 121
+32	320	1.1	1	1 319
+33	197	1.1	1	0 197
+34	186	1.1	1	0 186
+35	52	1.1	1	0 52
+36	27	1.1	1	0 27
+37	140	1.1	1	0 140
+38	102	1.1	1	0 102
+39	55	1.1	1	0 55
+40	76	1.1	1	0 76
+41	79	1.1	1	0 79
+42	113	1.1	1	0 113
+43	114	1.1	1	0 114
+44	49	1.1	1	0 49
+45	65	1.1	1	0 65
+46	45	1.1	1	0 45
+47	70	1.1	1	0 70
+48	189	1.1	1	0 189
+49	128	1.1	1	0 128
+50	145	1.1	1	0 145
+51	542	1.1	1	1 541
+52	74	1.1	1	0 74
+53	56	1.1	1	0 56
+54	95	1.1	1	0 95
+55	96	1.1	1	0 96
+56	52	1.1	1	1 51
+57	46	1.1	1	1 45
+58	48	1.1	1	0 48
+59	66	1.1	1	0 66
+60	63	1.1	1	0 63
+61	146	1.1	1	0 146
+62	145	1.1	1	0 145
+63	40	1.1	1	0 40
+64	401	1.1	1	0 401
+65	215	1.1	1	0 215
+66	234	1.1	1	0 234
+67	109	1.1	1	0 109
+68	20	1.1	1	0 20
+69	52	1.1	1	0 52
+70	62	1.1	1	0 62
+71	44	1.1	1	0 44
+72	61	1.1	1	0 61
+73	42	1.1	1	0 42
+74	34	1.1	1	0 34
+75	47	1.1	1	0 47
+76	133	1.1	1	0 133
+77	74	1.1	1	0 74
+78	55	1.1	1	1 54
+79	104	1.1	1	0 104
+80	65	1.1	1	0 65
+81	124	1.1	1	0 124
+82	179	1.1	1	0 179
+83	273	1.1	1	0 273
+84	68	1.1	1	0 68
+85	156	1.1	1	0 156
+86	115	1.1	1	0 115
+87	66	1.1	1	0 66
+88	213	1.1	1	0 213
+89	114	1.1	1	0 114
+90	1052	1.1	1	1 1051
+91	234	1.1	1	0 234
+92	83	1.1	1	0 83
+93	36	1.1	1	0 36
+94	50	1.1	1	0 50
+95	53	1.1	1	0 53
+96	145	1.1	1	0 145
+97	60	1.1	1	0 60
+98	37	1.1	1	0 37
+99	47	1.1	1	0 47
+100	502	1.1	1	1 501
+
+RUN STATISTICS FOR INPUT FILE: SRX22720566_2.fastq.gz
+=============================================
+18117383 sequences processed in total
+
+Total number of sequences analysed for the sequence pair length validation: 18117383
+
+Number of sequence pairs removed because at least one read was shorter than the length cutoff (18 bp): 3800 (0.02%)

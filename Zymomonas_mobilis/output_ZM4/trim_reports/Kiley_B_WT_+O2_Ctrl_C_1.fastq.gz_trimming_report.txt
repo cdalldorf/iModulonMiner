@@ -1,0 +1,199 @@
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: Kiley_B_WT_+O2_Ctrl_C_1.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.10
+Cutadapt version: 4.4
+Python version: could not detect
+Number of cores used for trimming: 4
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Using Illumina adapter for trimming (count: 18). Second best hit was smallRNA (count: 0)
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+Running FastQC on the data once trimming has completed
+Output file will be GZIP compressed
+
+
+This is cutadapt 4.4 with Python 3.7.16
+Command line parameters: -j 4 -e 0.1 -q 20 -O 1 -a AGATCGGAAGAGC Kiley_B_WT_+O2_Ctrl_C_1.fastq.gz
+Processing single-end reads on 4 cores ...
+Finished in 10.726 s (2.742 µs/read; 21.88 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:               3,911,176
+Reads with adapters:                 1,139,754 (29.1%)
+Reads written (passing filters):     3,911,176 (100.0%)
+
+Total basepairs processed:   562,301,932 bp
+Quality-trimmed:                 173,506 bp (0.0%)
+Total written (filtered):    560,503,158 bp (99.7%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 1139754 times
+
+Minimum overlap: 1
+No. of allowed errors:
+1-9 bp: 0; 10-13 bp: 1
+
+Bases preceding removed adapters:
+  A: 33.3%
+  C: 32.5%
+  G: 17.1%
+  T: 17.1%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	827073	977794.0	0	827073
+2	239445	244448.5	0	239445
+3	53558	61112.1	0	53558
+4	13201	15278.0	0	13201
+5	3438	3819.5	0	3438
+6	803	954.9	0	803
+7	376	238.7	0	376
+8	260	59.7	0	260
+9	291	14.9	0	253 38
+10	251	3.7	1	73 178
+11	42	0.9	1	5 37
+12	32	0.2	1	11 21
+13	50	0.1	1	18 32
+14	14	0.1	1	3 11
+15	9	0.1	1	4 5
+16	27	0.1	1	4 23
+17	33	0.1	1	5 28
+18	10	0.1	1	2 8
+19	12	0.1	1	3 9
+20	8	0.1	1	5 3
+21	4	0.1	1	1 3
+22	11	0.1	1	1 10
+23	13	0.1	1	5 8
+24	18	0.1	1	2 16
+25	8	0.1	1	3 5
+26	11	0.1	1	2 9
+27	3	0.1	1	2 1
+28	4	0.1	1	1 3
+29	13	0.1	1	4 9
+30	3	0.1	1	0 3
+31	3	0.1	1	1 2
+32	9	0.1	1	2 7
+33	13	0.1	1	0 13
+34	6	0.1	1	1 5
+35	19	0.1	1	2 17
+36	8	0.1	1	1 7
+37	10	0.1	1	1 9
+38	10	0.1	1	1 9
+39	5	0.1	1	1 4
+40	6	0.1	1	1 5
+41	1	0.1	1	0 1
+42	2	0.1	1	0 2
+43	27	0.1	1	2 25
+44	2	0.1	1	0 2
+45	5	0.1	1	4 1
+46	3	0.1	1	0 3
+47	4	0.1	1	0 4
+48	3	0.1	1	1 2
+49	3	0.1	1	1 2
+50	6	0.1	1	0 6
+51	1	0.1	1	0 1
+52	4	0.1	1	0 4
+53	30	0.1	1	0 30
+54	3	0.1	1	0 3
+55	9	0.1	1	0 9
+56	1	0.1	1	0 1
+57	1	0.1	1	0 1
+58	1	0.1	1	0 1
+59	12	0.1	1	0 12
+60	1	0.1	1	0 1
+62	5	0.1	1	0 5
+63	3	0.1	1	0 3
+64	2	0.1	1	1 1
+65	2	0.1	1	0 2
+67	1	0.1	1	0 1
+68	3	0.1	1	1 2
+70	3	0.1	1	0 3
+71	3	0.1	1	0 3
+72	18	0.1	1	0 18
+73	12	0.1	1	0 12
+74	3	0.1	1	0 3
+75	9	0.1	1	0 9
+76	5	0.1	1	0 5
+77	2	0.1	1	0 2
+78	2	0.1	1	0 2
+79	1	0.1	1	0 1
+80	1	0.1	1	0 1
+81	2	0.1	1	0 2
+83	3	0.1	1	0 3
+84	2	0.1	1	0 2
+85	9	0.1	1	0 9
+87	3	0.1	1	0 3
+88	1	0.1	1	0 1
+89	9	0.1	1	0 9
+90	58	0.1	1	0 58
+91	11	0.1	1	1 10
+92	9	0.1	1	0 9
+93	8	0.1	1	0 8
+94	3	0.1	1	0 3
+95	3	0.1	1	0 3
+96	1	0.1	1	0 1
+97	6	0.1	1	0 6
+99	2	0.1	1	0 2
+101	1	0.1	1	0 1
+102	1	0.1	1	0 1
+103	4	0.1	1	0 4
+104	2	0.1	1	0 2
+105	4	0.1	1	0 4
+106	1	0.1	1	0 1
+107	3	0.1	1	0 3
+108	2	0.1	1	0 2
+109	5	0.1	1	0 5
+110	6	0.1	1	0 6
+111	2	0.1	1	0 2
+112	1	0.1	1	0 1
+113	1	0.1	1	0 1
+114	5	0.1	1	0 5
+115	4	0.1	1	0 4
+116	1	0.1	1	0 1
+117	3	0.1	1	0 3
+118	13	0.1	1	0 13
+119	7	0.1	1	0 7
+120	7	0.1	1	0 7
+121	1	0.1	1	0 1
+122	23	0.1	1	0 23
+123	7	0.1	1	0 7
+124	1	0.1	1	0 1
+125	2	0.1	1	0 2
+127	1	0.1	1	0 1
+128	1	0.1	1	0 1
+129	7	0.1	1	0 7
+130	6	0.1	1	0 6
+131	3	0.1	1	0 3
+132	4	0.1	1	0 4
+133	2	0.1	1	0 2
+134	4	0.1	1	0 4
+135	3	0.1	1	0 3
+136	18	0.1	1	0 18
+137	19	0.1	1	0 19
+138	18	0.1	1	0 18
+139	12	0.1	1	0 12
+140	1	0.1	1	0 1
+141	39	0.1	1	0 39
+142	9	0.1	1	0 9
+143	13	0.1	1	0 13
+144	12	0.1	1	0 12
+145	13	0.1	1	0 13
+146	16	0.1	1	0 16
+147	4	0.1	1	0 4
+148	4	0.1	1	0 4
+149	3	0.1	1	0 3
+150	1	0.1	1	0 1
+
+RUN STATISTICS FOR INPUT FILE: Kiley_B_WT_+O2_Ctrl_C_1.fastq.gz
+=============================================
+3911176 sequences processed in total
+

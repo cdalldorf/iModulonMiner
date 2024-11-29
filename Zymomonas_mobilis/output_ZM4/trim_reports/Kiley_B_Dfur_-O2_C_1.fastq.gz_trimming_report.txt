@@ -1,0 +1,187 @@
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: Kiley_B_Dfur_-O2_C_1.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.10
+Cutadapt version: 4.4
+Python version: could not detect
+Number of cores used for trimming: 4
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Using Illumina adapter for trimming (count: 12). Second best hit was smallRNA (count: 0)
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+Running FastQC on the data once trimming has completed
+Output file will be GZIP compressed
+
+
+This is cutadapt 4.4 with Python 3.7.16
+Command line parameters: -j 4 -e 0.1 -q 20 -O 1 -a AGATCGGAAGAGC Kiley_B_Dfur_-O2_C_1.fastq.gz
+Processing single-end reads on 4 cores ...
+Finished in 10.473 s (2.817 µs/read; 21.30 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:               3,717,905
+Reads with adapters:                 1,105,377 (29.7%)
+Reads written (passing filters):     3,717,905 (100.0%)
+
+Total basepairs processed:   539,021,662 bp
+Quality-trimmed:                 156,503 bp (0.0%)
+Total written (filtered):    537,327,760 bp (99.7%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 1105377 times
+
+Minimum overlap: 1
+No. of allowed errors:
+1-9 bp: 0; 10-13 bp: 1
+
+Bases preceding removed adapters:
+  A: 33.2%
+  C: 32.6%
+  G: 17.4%
+  T: 16.8%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	814083	929476.2	0	814083
+2	221558	232369.1	0	221558
+3	52091	58092.3	0	52091
+4	12007	14523.1	0	12007
+5	3301	3630.8	0	3301
+6	625	907.7	0	625
+7	275	226.9	0	275
+8	234	56.7	0	234
+9	237	14.2	0	195 42
+10	185	3.5	1	41 144
+11	26	0.9	1	2 24
+12	25	0.2	1	8 17
+13	42	0.1	1	12 30
+14	5	0.1	1	0 5
+15	12	0.1	1	3 9
+16	8	0.1	1	5 3
+17	17	0.1	1	4 13
+18	10	0.1	1	2 8
+19	5	0.1	1	1 4
+20	8	0.1	1	2 6
+21	8	0.1	1	0 8
+22	4	0.1	1	0 4
+23	11	0.1	1	0 11
+24	14	0.1	1	1 13
+25	10	0.1	1	4 6
+26	1	0.1	1	1
+27	9	0.1	1	2 7
+28	8	0.1	1	2 6
+29	7	0.1	1	3 4
+30	3	0.1	1	0 3
+31	11	0.1	1	1 10
+32	5	0.1	1	0 5
+33	10	0.1	1	0 10
+34	24	0.1	1	2 22
+35	18	0.1	1	0 18
+36	11	0.1	1	0 11
+37	20	0.1	1	1 19
+38	37	0.1	1	1 36
+39	3	0.1	1	0 3
+40	18	0.1	1	0 18
+41	19	0.1	1	1 18
+42	4	0.1	1	0 4
+43	8	0.1	1	1 7
+44	4	0.1	1	0 4
+45	4	0.1	1	0 4
+46	4	0.1	1	0 4
+47	6	0.1	1	0 6
+48	6	0.1	1	0 6
+49	4	0.1	1	0 4
+50	5	0.1	1	2 3
+51	3	0.1	1	0 3
+53	11	0.1	1	0 11
+54	5	0.1	1	0 5
+55	1	0.1	1	1
+58	3	0.1	1	1 2
+59	3	0.1	1	1 2
+60	1	0.1	1	0 1
+61	1	0.1	1	0 1
+62	3	0.1	1	0 3
+63	2	0.1	1	0 2
+64	1	0.1	1	1
+65	3	0.1	1	0 3
+67	3	0.1	1	0 3
+68	2	0.1	1	0 2
+70	4	0.1	1	0 4
+71	4	0.1	1	0 4
+72	7	0.1	1	0 7
+73	7	0.1	1	0 7
+74	2	0.1	1	0 2
+75	1	0.1	1	0 1
+76	2	0.1	1	0 2
+77	2	0.1	1	0 2
+78	1	0.1	1	0 1
+79	1	0.1	1	0 1
+81	7	0.1	1	0 7
+84	4	0.1	1	0 4
+85	1	0.1	1	0 1
+86	1	0.1	1	0 1
+88	1	0.1	1	0 1
+89	13	0.1	1	0 13
+90	17	0.1	1	0 17
+91	7	0.1	1	0 7
+92	4	0.1	1	0 4
+93	4	0.1	1	0 4
+94	3	0.1	1	0 3
+96	1	0.1	1	0 1
+97	1	0.1	1	0 1
+98	3	0.1	1	0 3
+99	3	0.1	1	0 3
+101	1	0.1	1	0 1
+102	2	0.1	1	0 2
+103	1	0.1	1	0 1
+104	4	0.1	1	0 4
+105	2	0.1	1	0 2
+106	1	0.1	1	0 1
+107	2	0.1	1	0 2
+108	1	0.1	1	0 1
+109	2	0.1	1	0 2
+110	4	0.1	1	0 4
+111	2	0.1	1	0 2
+112	1	0.1	1	0 1
+113	2	0.1	1	0 2
+114	4	0.1	1	0 4
+116	4	0.1	1	0 4
+117	1	0.1	1	0 1
+118	8	0.1	1	0 8
+119	6	0.1	1	0 6
+122	7	0.1	1	0 7
+123	4	0.1	1	0 4
+125	4	0.1	1	0 4
+127	1	0.1	1	0 1
+128	1	0.1	1	0 1
+130	5	0.1	1	0 5
+131	2	0.1	1	0 2
+132	5	0.1	1	0 5
+134	4	0.1	1	0 4
+136	3	0.1	1	0 3
+137	4	0.1	1	0 4
+138	6	0.1	1	0 6
+139	17	0.1	1	0 17
+140	3	0.1	1	0 3
+141	19	0.1	1	0 19
+142	4	0.1	1	0 4
+143	3	0.1	1	0 3
+144	3	0.1	1	0 3
+145	13	0.1	1	0 13
+146	17	0.1	1	0 17
+147	9	0.1	1	0 9
+149	1	0.1	1	0 1
+150	1	0.1	1	0 1
+
+RUN STATISTICS FOR INPUT FILE: Kiley_B_Dfur_-O2_C_1.fastq.gz
+=============================================
+3717905 sequences processed in total
+

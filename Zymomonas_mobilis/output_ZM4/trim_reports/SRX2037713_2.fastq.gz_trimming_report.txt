@@ -1,0 +1,158 @@
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: SRX2037713_2.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.10
+Cutadapt version: 4.4
+Python version: could not detect
+Number of cores used for trimming: 4
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Using Illumina adapter for trimming (count: 23785). Second best hit was Nextera (count: 1275)
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+Running FastQC on the data once trimming has completed
+Output file will be GZIP compressed
+
+
+This is cutadapt 4.4 with Python 3.7.16
+Command line parameters: -j 4 -e 0.1 -q 20 -O 1 -a AGATCGGAAGAGC SRX2037713_2.fastq.gz
+Processing single-end reads on 4 cores ...
+Finished in 84.296 s (4.883 µs/read; 12.29 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              17,264,498
+Reads with adapters:                 6,595,407 (38.2%)
+Reads written (passing filters):    17,264,498 (100.0%)
+
+Total basepairs processed: 1,743,714,298 bp
+Quality-trimmed:             141,154,283 bp (8.1%)
+Total written (filtered):  1,584,889,846 bp (90.9%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 6595407 times
+
+Minimum overlap: 1
+No. of allowed errors:
+1-9 bp: 0; 10-13 bp: 1
+
+Bases preceding removed adapters:
+  A: 50.7%
+  C: 18.8%
+  G: 17.6%
+  T: 12.8%
+  none/other: 0.1%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	4739738	4316124.5	0	4739738
+2	790440	1079031.1	0	790440
+3	278637	269757.8	0	278637
+4	96807	67439.4	0	96807
+5	59804	16859.9	0	59804
+6	53678	4215.0	0	53678
+7	45532	1053.7	0	45532
+8	49548	263.4	0	49548
+9	48765	65.9	0	48500 265
+10	45031	16.5	1	38009 7022
+11	31324	4.1	1	30970 354
+12	33448	1.0	1	33127 321
+13	30148	0.3	1	29800 348
+14	35049	0.3	1	34579 470
+15	16637	0.3	1	16462 175
+16	22281	0.3	1	21965 316
+17	28032	0.3	1	27767 265
+18	12386	0.3	1	12237 149
+19	19650	0.3	1	19469 181
+20	11462	0.3	1	11361 101
+21	11811	0.3	1	11686 125
+22	13107	0.3	1	12944 163
+23	11963	0.3	1	11822 141
+24	13317	0.3	1	13086 231
+25	9032	0.3	1	8919 113
+26	8698	0.3	1	8565 133
+27	8268	0.3	1	8182 86
+28	8484	0.3	1	8374 110
+29	6647	0.3	1	6568 79
+30	13831	0.3	1	13677 154
+31	766	0.3	1	740 26
+32	3966	0.3	1	3919 47
+33	1506	0.3	1	1483 23
+34	2547	0.3	1	2498 49
+35	2773	0.3	1	2730 43
+36	2708	0.3	1	2673 35
+37	2634	0.3	1	2609 25
+38	2471	0.3	1	2441 30
+39	2463	0.3	1	2435 28
+40	2147	0.3	1	2123 24
+41	2065	0.3	1	2031 34
+42	3091	0.3	1	3039 52
+43	844	0.3	1	833 11
+44	1503	0.3	1	1487 16
+45	1744	0.3	1	1720 24
+46	518	0.3	1	506 12
+47	798	0.3	1	785 13
+48	608	0.3	1	599 9
+49	712	0.3	1	703 9
+50	857	0.3	1	845 12
+51	925	0.3	1	908 17
+52	314	0.3	1	305 9
+53	293	0.3	1	287 6
+54	360	0.3	1	355 5
+55	371	0.3	1	355 16
+56	296	0.3	1	285 11
+57	343	0.3	1	326 17
+58	339	0.3	1	328 11
+59	263	0.3	1	253 10
+60	263	0.3	1	248 15
+61	237	0.3	1	228 9
+62	199	0.3	1	187 12
+63	223	0.3	1	218 5
+64	220	0.3	1	213 7
+65	219	0.3	1	206 13
+66	114	0.3	1	106 8
+67	43	0.3	1	39 4
+68	10	0.3	1	7 3
+69	8	0.3	1	2 6
+70	3	0.3	1	2 1
+71	6	0.3	1	3 3
+72	4	0.3	1	1 3
+73	6	0.3	1	0 6
+74	3	0.3	1	0 3
+75	3	0.3	1	0 3
+76	1	0.3	1	0 1
+77	4	0.3	1	0 4
+78	3	0.3	1	0 3
+79	3	0.3	1	0 3
+80	2	0.3	1	0 2
+81	7	0.3	1	0 7
+82	4	0.3	1	3 1
+83	9	0.3	1	0 9
+84	1	0.3	1	0 1
+86	1	0.3	1	1
+87	2	0.3	1	0 2
+88	1	0.3	1	0 1
+90	1	0.3	1	0 1
+91	1	0.3	1	1
+92	4	0.3	1	0 4
+93	3	0.3	1	0 3
+94	1	0.3	1	0 1
+95	1	0.3	1	0 1
+96	7	0.3	1	0 7
+97	1	0.3	1	0 1
+98	5	0.3	1	0 5
+99	3	0.3	1	0 3
+100	1	0.3	1	0 1
+
+RUN STATISTICS FOR INPUT FILE: SRX2037713_2.fastq.gz
+=============================================
+17264498 sequences processed in total
+
+Total number of sequences analysed for the sequence pair length validation: 17264498
+
+Number of sequence pairs removed because at least one read was shorter than the length cutoff (20 bp): 652289 (3.78%)

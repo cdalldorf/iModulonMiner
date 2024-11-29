@@ -1,0 +1,159 @@
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: SRX5252044_1.fastq.gz
+Trimming mode: single-end
+Trim Galore version: 0.6.10
+Cutadapt version: 4.4
+Python version: could not detect
+Number of cores used for trimming: 4
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Using Illumina adapter for trimming (count: 21472). Second best hit was smallRNA (count: 0)
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length before a sequence gets removed: 20 bp
+Running FastQC on the data once trimming has completed
+Output file will be GZIP compressed
+
+
+This is cutadapt 4.4 with Python 3.7.16
+Command line parameters: -j 4 -e 0.1 -q 20 -O 1 -a AGATCGGAAGAGC SRX5252044_1.fastq.gz
+Processing single-end reads on 4 cores ...
+Finished in 52.566 s (5.383 µs/read; 11.15 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:               9,764,983
+Reads with adapters:                 3,643,912 (37.3%)
+Reads written (passing filters):     9,764,983 (100.0%)
+
+Total basepairs processed:   986,263,283 bp
+Quality-trimmed:               8,684,102 bp (0.9%)
+Total written (filtered):    965,675,826 bp (97.9%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 3643912 times
+
+Minimum overlap: 1
+No. of allowed errors:
+1-9 bp: 0; 10-13 bp: 1
+
+Bases preceding removed adapters:
+  A: 36.7%
+  C: 24.7%
+  G: 19.7%
+  T: 18.9%
+  none/other: 0.1%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	2489009	2441245.8	0	2489009
+2	501971	610311.4	0	501971
+3	183653	152577.9	0	183653
+4	69025	38144.5	0	69025
+5	33016	9536.1	0	33016
+6	28041	2384.0	0	28041
+7	26362	596.0	0	26362
+8	20119	149.0	0	20119
+9	21686	37.3	0	21467 219
+10	19090	9.3	1	18437 653
+11	15948	2.3	1	15609 339
+12	17098	0.6	1	16774 324
+13	17378	0.1	1	17057 321
+14	12857	0.1	1	12616 241
+15	14744	0.1	1	14464 280
+16	11071	0.1	1	10873 198
+17	11979	0.1	1	11763 216
+18	10904	0.1	1	10691 213
+19	9990	0.1	1	9787 203
+20	9678	0.1	1	9515 163
+21	8815	0.1	1	8648 167
+22	8269	0.1	1	8119 150
+23	6755	0.1	1	6626 129
+24	6755	0.1	1	6635 120
+25	6823	0.1	1	6701 122
+26	4514	0.1	1	4420 94
+27	5297	0.1	1	5205 92
+28	5290	0.1	1	5170 120
+29	4143	0.1	1	4061 82
+30	3964	0.1	1	3886 78
+31	3674	0.1	1	3592 82
+32	4529	0.1	1	4407 122
+33	2192	0.1	1	2097 95
+34	3030	0.1	1	2941 89
+35	2580	0.1	1	2507 73
+36	2248	0.1	1	2200 48
+37	1982	0.1	1	1935 47
+38	1826	0.1	1	1792 34
+39	1707	0.1	1	1684 23
+40	1662	0.1	1	1628 34
+41	1419	0.1	1	1384 35
+42	1540	0.1	1	1502 38
+43	1134	0.1	1	1108 26
+44	1029	0.1	1	1015 14
+45	1481	0.1	1	1441 40
+46	468	0.1	1	449 19
+47	932	0.1	1	894 38
+48	715	0.1	1	696 19
+49	775	0.1	1	740 35
+50	647	0.1	1	615 32
+51	631	0.1	1	599 32
+52	526	0.1	1	499 27
+53	528	0.1	1	497 31
+54	539	0.1	1	507 32
+55	525	0.1	1	475 50
+56	359	0.1	1	333 26
+57	448	0.1	1	424 24
+58	320	0.1	1	300 20
+59	328	0.1	1	305 23
+60	325	0.1	1	297 28
+61	205	0.1	1	178 27
+62	251	0.1	1	231 20
+63	423	0.1	1	386 37
+64	213	0.1	1	189 24
+65	216	0.1	1	198 18
+66	257	0.1	1	222 35
+67	229	0.1	1	202 27
+68	230	0.1	1	215 15
+69	271	0.1	1	233 38
+70	327	0.1	1	268 59
+71	351	0.1	1	306 45
+72	392	0.1	1	350 42
+73	488	0.1	1	421 67
+74	789	0.1	1	675 114
+75	1958	0.1	1	1280 678
+76	8084	0.1	1	7553 531
+77	3315	0.1	1	3113 202
+78	639	0.1	1	593 46
+79	241	0.1	1	215 26
+80	97	0.1	1	75 22
+81	78	0.1	1	62 16
+82	50	0.1	1	37 13
+83	61	0.1	1	39 22
+84	32	0.1	1	21 11
+85	26	0.1	1	18 8
+86	39	0.1	1	17 22
+87	29	0.1	1	9 20
+88	23	0.1	1	10 13
+89	33	0.1	1	13 20
+90	14	0.1	1	8 6
+91	25	0.1	1	15 10
+92	38	0.1	1	8 30
+93	12	0.1	1	4 8
+94	15	0.1	1	5 10
+95	18	0.1	1	4 14
+96	36	0.1	1	7 29
+97	16	0.1	1	4 12
+98	27	0.1	1	3 24
+99	7	0.1	1	4 3
+100	3	0.1	1	2 1
+101	11	0.1	1	2 9
+
+RUN STATISTICS FOR INPUT FILE: SRX5252044_1.fastq.gz
+=============================================
+9764983 sequences processed in total
+Sequences removed because they became shorter than the length cutoff of 20 bp:	43603 (0.4%)
+

@@ -1,0 +1,139 @@
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: Kiley_B_WT_+O2_Ctrl_B_2.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.10
+Cutadapt version: 4.4
+Python version: could not detect
+Number of cores used for trimming: 4
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Using Illumina adapter for trimming (count: 16). Second best hit was Nextera (count: 0)
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+Running FastQC on the data once trimming has completed
+Output file will be GZIP compressed
+
+
+This is cutadapt 4.4 with Python 3.7.16
+Command line parameters: -j 4 -e 0.1 -q 20 -O 1 -a AGATCGGAAGAGC Kiley_B_WT_+O2_Ctrl_B_2.fastq.gz
+Processing single-end reads on 4 cores ...
+Finished in 9.135 s (2.728 µs/read; 22.00 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:               3,348,814
+Reads with adapters:                   890,796 (26.6%)
+Reads written (passing filters):     3,348,814 (100.0%)
+
+Total basepairs processed:   482,204,990 bp
+Quality-trimmed:                 294,333 bp (0.1%)
+Total written (filtered):    480,658,398 bp (99.7%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 890796 times
+
+Minimum overlap: 1
+No. of allowed errors:
+1-9 bp: 0; 10-13 bp: 1
+
+Bases preceding removed adapters:
+  A: 38.4%
+  C: 27.6%
+  G: 19.3%
+  T: 14.8%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	632004	837203.5	0	632004
+2	200099	209300.9	0	200099
+3	38556	52325.2	0	38556
+4	12841	13081.3	0	12841
+5	3399	3270.3	0	3399
+6	2076	817.6	0	2076
+7	640	204.4	0	640
+8	153	51.1	0	153
+9	436	12.8	0	136 300
+10	217	3.2	1	103 114
+11	13	0.8	1	1 12
+12	13	0.2	1	4 9
+13	19	0.0	1	16 3
+14	8	0.0	1	5 3
+15	11	0.0	1	5 6
+16	12	0.0	1	6 6
+17	28	0.0	1	17 11
+18	5	0.0	1	4 1
+19	10	0.0	1	1 9
+20	5	0.0	1	2 3
+21	11	0.0	1	0 11
+22	13	0.0	1	3 10
+23	5	0.0	1	1 4
+24	34	0.0	1	15 19
+25	4	0.0	1	0 4
+26	9	0.0	1	4 5
+27	8	0.0	1	1 7
+28	5	0.0	1	2 3
+29	7	0.0	1	2 5
+30	5	0.0	1	3 2
+31	6	0.0	1	3 3
+32	8	0.0	1	4 4
+33	10	0.0	1	0 10
+34	10	0.0	1	4 6
+35	4	0.0	1	1 3
+36	9	0.0	1	6 3
+37	10	0.0	1	4 6
+38	4	0.0	1	1 3
+39	1	0.0	1	0 1
+40	4	0.0	1	1 3
+41	4	0.0	1	2 2
+42	8	0.0	1	2 6
+43	2	0.0	1	1 1
+44	11	0.0	1	5 6
+45	4	0.0	1	2 2
+46	4	0.0	1	1 3
+47	3	0.0	1	1 2
+48	1	0.0	1	0 1
+50	1	0.0	1	1
+52	3	0.0	1	0 3
+54	5	0.0	1	1 4
+55	4	0.0	1	2 2
+56	4	0.0	1	1 3
+57	2	0.0	1	0 2
+58	2	0.0	1	0 2
+60	1	0.0	1	0 1
+63	1	0.0	1	1
+64	1	0.0	1	0 1
+65	1	0.0	1	0 1
+66	1	0.0	1	0 1
+68	1	0.0	1	1
+70	1	0.0	1	1
+72	1	0.0	1	0 1
+73	2	0.0	1	1 1
+74	1	0.0	1	1
+78	1	0.0	1	0 1
+79	1	0.0	1	0 1
+81	2	0.0	1	0 2
+82	1	0.0	1	0 1
+84	1	0.0	1	0 1
+94	1	0.0	1	0 1
+97	1	0.0	1	0 1
+115	1	0.0	1	0 1
+125	1	0.0	1	0 1
+126	1	0.0	1	0 1
+132	1	0.0	1	0 1
+134	1	0.0	1	0 1
+141	1	0.0	1	0 1
+147	1	0.0	1	0 1
+
+RUN STATISTICS FOR INPUT FILE: Kiley_B_WT_+O2_Ctrl_B_2.fastq.gz
+=============================================
+3348814 sequences processed in total
+
+Total number of sequences analysed for the sequence pair length validation: 3348814
+
+Number of sequence pairs removed because at least one read was shorter than the length cutoff (20 bp): 1062 (0.03%)

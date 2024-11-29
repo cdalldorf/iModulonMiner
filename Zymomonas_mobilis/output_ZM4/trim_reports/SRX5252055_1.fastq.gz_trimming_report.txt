@@ -1,0 +1,159 @@
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: SRX5252055_1.fastq.gz
+Trimming mode: single-end
+Trim Galore version: 0.6.10
+Cutadapt version: 4.4
+Python version: could not detect
+Number of cores used for trimming: 4
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Using Illumina adapter for trimming (count: 11462). Second best hit was Nextera (count: 0)
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length before a sequence gets removed: 20 bp
+Running FastQC on the data once trimming has completed
+Output file will be GZIP compressed
+
+
+This is cutadapt 4.4 with Python 3.7.16
+Command line parameters: -j 4 -e 0.1 -q 20 -O 1 -a AGATCGGAAGAGC SRX5252055_1.fastq.gz
+Processing single-end reads on 4 cores ...
+Finished in 71.716 s (5.292 µs/read; 11.34 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              13,551,555
+Reads with adapters:                 4,869,858 (35.9%)
+Reads written (passing filters):    13,551,555 (100.0%)
+
+Total basepairs processed: 1,368,707,055 bp
+Quality-trimmed:               7,706,230 bp (0.6%)
+Total written (filtered):  1,349,602,054 bp (98.6%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 4869858 times
+
+Minimum overlap: 1
+No. of allowed errors:
+1-9 bp: 0; 10-13 bp: 1
+
+Bases preceding removed adapters:
+  A: 37.3%
+  C: 25.4%
+  G: 18.5%
+  T: 18.7%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	3439232	3387888.8	0	3439232
+2	714202	846972.2	0	714202
+3	256819	211743.0	0	256819
+4	101298	52935.8	0	101298
+5	40773	13233.9	0	40773
+6	32861	3308.5	0	32861
+7	28840	827.1	0	28840
+8	21799	206.8	0	21799
+9	23959	51.7	0	23746 213
+10	19107	12.9	1	18252 855
+11	15941	3.2	1	15607 334
+12	16145	0.8	1	15898 247
+13	16229	0.2	1	15953 276
+14	11973	0.2	1	11801 172
+15	13901	0.2	1	13703 198
+16	9545	0.2	1	9424 121
+17	10572	0.2	1	10399 173
+18	9532	0.2	1	9364 168
+19	7951	0.2	1	7823 128
+20	8365	0.2	1	8233 132
+21	6402	0.2	1	6311 91
+22	6415	0.2	1	6331 84
+23	5035	0.2	1	4968 67
+24	4888	0.2	1	4803 85
+25	5395	0.2	1	5322 73
+26	2705	0.2	1	2651 54
+27	3614	0.2	1	3557 57
+28	3467	0.2	1	3402 65
+29	2539	0.2	1	2494 45
+30	2622	0.2	1	2580 42
+31	2100	0.2	1	2069 31
+32	2696	0.2	1	2643 53
+33	1263	0.2	1	1164 99
+34	1759	0.2	1	1704 55
+35	1238	0.2	1	1196 42
+36	1192	0.2	1	1170 22
+37	1130	0.2	1	1104 26
+38	1070	0.2	1	1055 15
+39	913	0.2	1	895 18
+40	776	0.2	1	752 24
+41	698	0.2	1	673 25
+42	643	0.2	1	615 28
+43	648	0.2	1	632 16
+44	426	0.2	1	408 18
+45	601	0.2	1	583 18
+46	290	0.2	1	280 10
+47	403	0.2	1	366 37
+48	296	0.2	1	291 5
+49	297	0.2	1	286 11
+50	245	0.2	1	227 18
+51	262	0.2	1	240 22
+52	228	0.2	1	207 21
+53	197	0.2	1	182 15
+54	219	0.2	1	200 19
+55	222	0.2	1	180 42
+56	120	0.2	1	109 11
+57	199	0.2	1	183 16
+58	110	0.2	1	99 11
+59	137	0.2	1	112 25
+60	117	0.2	1	98 19
+61	105	0.2	1	83 22
+62	110	0.2	1	94 16
+63	160	0.2	1	129 31
+64	93	0.2	1	81 12
+65	104	0.2	1	84 20
+66	131	0.2	1	98 33
+67	101	0.2	1	68 33
+68	106	0.2	1	89 17
+69	130	0.2	1	99 31
+70	173	0.2	1	96 77
+71	159	0.2	1	129 30
+72	129	0.2	1	107 22
+73	198	0.2	1	176 22
+74	291	0.2	1	241 50
+75	593	0.2	1	429 164
+76	2837	0.2	1	2672 165
+77	1075	0.2	1	1008 67
+78	214	0.2	1	194 20
+79	86	0.2	1	65 21
+80	37	0.2	1	25 12
+81	28	0.2	1	12 16
+82	25	0.2	1	12 13
+83	34	0.2	1	11 23
+84	17	0.2	1	3 14
+85	16	0.2	1	8 8
+86	20	0.2	1	1 19
+87	21	0.2	1	6 15
+88	21	0.2	1	3 18
+89	26	0.2	1	5 21
+90	12	0.2	1	5 7
+91	17	0.2	1	2 15
+92	24	0.2	1	0 24
+93	8	0.2	1	1 7
+94	14	0.2	1	0 14
+95	7	0.2	1	1 6
+96	34	0.2	1	0 34
+97	20	0.2	1	4 16
+98	34	0.2	1	2 32
+99	10	0.2	1	0 10
+100	8	0.2	1	5 3
+101	9	0.2	1	2 7
+
+RUN STATISTICS FOR INPUT FILE: SRX5252055_1.fastq.gz
+=============================================
+13551555 sequences processed in total
+Sequences removed because they became shorter than the length cutoff of 20 bp:	20462 (0.2%)
+

@@ -1,0 +1,157 @@
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: SRX3316746_1.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.10
+Cutadapt version: 4.4
+Python version: could not detect
+Number of cores used for trimming: 4
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Using Illumina adapter for trimming (count: 37641). Second best hit was smallRNA (count: 1)
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+Running FastQC on the data once trimming has completed
+Output file will be GZIP compressed
+
+
+This is cutadapt 4.4 with Python 3.7.16
+Command line parameters: -j 4 -e 0.1 -q 20 -O 1 -a AGATCGGAAGAGC SRX3316746_1.fastq.gz
+Processing single-end reads on 4 cores ...
+Finished in 118.865 s (3.995 µs/read; 15.02 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              29,756,511
+Reads with adapters:                16,948,155 (57.0%)
+Reads written (passing filters):    29,756,511 (100.0%)
+
+Total basepairs processed: 2,975,651,100 bp
+Quality-trimmed:             188,829,775 bp (6.3%)
+Total written (filtered):  2,192,238,971 bp (73.7%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 16948155 times
+
+Minimum overlap: 1
+No. of allowed errors:
+1-9 bp: 0; 10-13 bp: 1
+
+Bases preceding removed adapters:
+  A: 18.1%
+  C: 20.0%
+  G: 10.7%
+  T: 8.4%
+  none/other: 42.8%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	5503394	7439127.8	0	5503394
+2	1313219	1859781.9	0	1313219
+3	442221	464945.5	0	442221
+4	217586	116236.4	0	217586
+5	163259	29059.1	0	163259
+6	155801	7264.8	0	155801
+7	144959	1816.2	0	144959
+8	129150	454.0	0	129150
+9	125115	113.5	0	124722 393
+10	117864	28.4	1	111246 6618
+11	99478	7.1	1	93985 5493
+12	96831	1.8	1	91317 5514
+13	92228	0.4	1	87002 5226
+14	89827	0.4	1	84682 5145
+15	87741	0.4	1	82690 5051
+16	86006	0.4	1	81056 4950
+17	82525	0.4	1	77993 4532
+18	75174	0.4	1	71032 4142
+19	69433	0.4	1	65752 3681
+20	59713	0.4	1	56548 3165
+21	54131	0.4	1	51022 3109
+22	47490	0.4	1	44658 2832
+23	41836	0.4	1	39511 2325
+24	39568	0.4	1	37293 2275
+25	37107	0.4	1	35025 2082
+26	36597	0.4	1	34589 2008
+27	33744	0.4	1	31860 1884
+28	31453	0.4	1	29723 1730
+29	25911	0.4	1	24454 1457
+30	22334	0.4	1	20999 1335
+31	19891	0.4	1	18647 1244
+32	16850	0.4	1	15851 999
+33	13195	0.4	1	12365 830
+34	12730	0.4	1	11882 848
+35	11938	0.4	1	11207 731
+36	10990	0.4	1	10308 682
+37	10519	0.4	1	9894 625
+38	9770	0.4	1	9201 569
+39	8664	0.4	1	8140 524
+40	7787	0.4	1	7253 534
+41	8435	0.4	1	7908 527
+42	3260	0.4	1	3037 223
+43	3227	0.4	1	2991 236
+44	3238	0.4	1	2996 242
+45	3267	0.4	1	2950 317
+46	3050	0.4	1	2752 298
+47	2872	0.4	1	2629 243
+48	2837	0.4	1	2547 290
+49	2727	0.4	1	2372 355
+50	2440	0.4	1	2035 405
+51	2084	0.4	1	1646 438
+52	1953	0.4	1	1473 480
+53	1578	0.4	1	1273 305
+54	1288	0.4	1	930 358
+55	1199	0.4	1	884 315
+56	1121	0.4	1	694 427
+57	1152	0.4	1	690 462
+58	1250	0.4	1	693 557
+59	1792	0.4	1	622 1170
+60	2150	0.4	1	565 1585
+61	1779	0.4	1	475 1304
+62	1746	0.4	1	386 1360
+63	4364	0.4	1	421 3943
+64	3543	0.4	1	249 3294
+65	5027	0.4	1	229 4798
+66	9217	0.4	1	191 9026
+67	13745	0.4	1	175 13570
+68	28889	0.4	1	167 28722
+69	36008	0.4	1	160 35848
+70	58538	0.4	1	134 58404
+71	115868	0.4	1	137 115731
+72	370773	0.4	1	141 370632
+73	3621797	0.4	1	313 3621484
+74	1719655	0.4	1	2731 1716924
+75	216117	0.4	1	974 215143
+76	70136	0.4	1	166 69970
+77	34937	0.4	1	61 34876
+78	26816	0.4	1	30 26786
+79	20792	0.4	1	29 20763
+80	21035	0.4	1	24 21011
+81	20081	0.4	1	15 20066
+82	20643	0.4	1	14 20629
+83	22125	0.4	1	19 22106
+84	21832	0.4	1	17 21815
+85	21292	0.4	1	14 21278
+86	22099	0.4	1	15 22084
+87	24142	0.4	1	18 24124
+88	25267	0.4	1	13 25254
+89	26352	0.4	1	17 26335
+90	29414	0.4	1	17 29397
+91	31308	0.4	1	19 31289
+92	31845	0.4	1	27 31818
+93	33893	0.4	1	31 33862
+94	33569	0.4	1	18 33551
+95	36367	0.4	1	22 36345
+96	41114	0.4	1	26 41088
+97	47512	0.4	1	26 47486
+98	55873	0.4	1	37 55836
+99	90184	0.4	1	68 90116
+100	237512	0.4	1	166 237346
+
+RUN STATISTICS FOR INPUT FILE: SRX3316746_1.fastq.gz
+=============================================
+29756511 sequences processed in total
+
